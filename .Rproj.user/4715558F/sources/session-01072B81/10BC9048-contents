@@ -1,0 +1,13 @@
+---
+## Configure header of page
+text_align_right: false
+show_title_as_headline: false
+headline: |
+  Nice to see you here!
+---
+
+<!-- this is a subheadline -->
+I am a third-year PhD student at Boston University and my research areas are phonetics and phonology. 
+
+I have always found sounds produced by human speech most fascinating. And as a speaker of an under-documented language, I mostly work in describing the phonetics and phonology of under-described languages.
+
