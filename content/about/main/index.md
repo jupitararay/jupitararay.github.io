@@ -9,7 +9,6 @@ intro: |
   I have worked on identifying variation in the vowel space of Assamese speakers by looking at socioeconomic factors. I am also currently trying to create a phonological description of my native language, Koch Rajbongshi, an under-represented language spoken in the Indian subcontinent. For this, I am collecting audio recordings from native Koch Rajbongshi speakers in Assam, India. If you are a native speaker, or know somebody who is, please send me an email! 
 show_outro: true
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---
 
 ** index doesn't contain a body, just front matter above.
