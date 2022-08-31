@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "RStudio"
   orgLocal = "Anywhere"
   description = "Jupitara Ray's personal website."
-  favicon = "/img/lolonew.PNG"
-  logo = "/img/lolonew.PNG"
+  favicon = "/img/lolo.png"
+  logo = "/img/lolo.png"
   mainSections = [""]
   navallcaps = true
   # show/hide social icons in site header & footer
