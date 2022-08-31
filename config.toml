@@ -140,6 +140,7 @@ enableEmoji = true
     name = "CV"
     title = "CV"
     url = "/cv/jupitararay.pdf"
+    target = "_blank"
     weight = 3
   #[[menu.header]]
   #  name = "A collection"
