@@ -1,4 +1,4 @@
-baseURL = "https://jupitarary.github.io"
+baseURL = "https://jupitararay.github.io/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Jupitara Ray"
