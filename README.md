@@ -1,4 +1,10 @@
-### Hi there 👋
+## Jupitara Ray
+
+This repository contains the personal website of Jupitara Ray: https://jupitararay.github.io
+
+Jupitara Ray, PhD Student in Linguistics, Boston University
+
+
 
 <!--
 **jupitararay/jupitararay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
