@@ -30,9 +30,9 @@ enableEmoji = true
 [params]
   orgName = "RStudio"
   orgLocal = "Anywhere"
-  description = "Jupitara Ray's personal website."
-  favicon = "/img/lolo.png"
-  logo = "/img/lolo.png"
+  description = "Jupitara Ray's Personal Website."
+  favicon = "/img/favicat.png"
+  logo = "/img/favicat.png"
   mainSections = [""]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "plum"
+  theme = "grayscale"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -62,7 +62,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
+  customtextFontFamily = "Metropolis"
   customheadingFontFamily = "Fraunces"  # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -139,7 +139,7 @@ enableEmoji = true
   [[menu.header]]
     name = "CV"
     title = "CV"
-    url = "/cv/jupitara-cv.pdf"
+    url = "/cv/jupitararaycv.pdf"
     target = "_blank"
     weight = 3
   #[[menu.header]]
