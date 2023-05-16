@@ -7,7 +7,7 @@ subtitle: PhD student in Linguistics
 description: Hello! I am a Ph.D. student in Linguistics at Boston University. I work with under-studied languages in the SULa Lab. I am interested in understanding and describing the phonetics and phonology of under-described languages. 
 image_left: false
 images:
-- img/profile-modified-2.png
+- img/profile.png
 show_action_link: true
 show_social_links: true]
 text_align_left: true
