@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "RStudio"
   orgLocal = "Anywhere"
   description = "Jupitara Ray's Personal Website."
-  favicon = "/img/favicat.png"
-  logo = "/img/favicat.png"
+  favicon = "/img/cat.ico"
+  logo = "/img/cat.png"
   mainSections = [""]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -164,11 +164,11 @@ enableEmoji = true
   #  title = "Contact form"
   #  url = "/contact/"
   #  weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
+  #[[menu.footer]]
+  #  name = "Contributors"
+  #  title = "Contributors"
+  #  url = "/contributors/"
+  #  weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
