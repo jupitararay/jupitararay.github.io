@@ -4,7 +4,7 @@ action_link: /about
 action_type: text
 title: Jupitara Ray
 subtitle: PhD student in Linguistics
-description: Hello! I am a Ph.D. student in Linguistics at Boston University. I work with under-studied languages in the SULa Lab. I am interested in understanding and describing the phonetics and phonology of under-described languages. 
+description: Hello! I am a Ph.D. candidate in the Department of Linguistics at Boston University. My research includes studying the sound system of Assamese, an Indo-Aryan language spoken in Assam, India. I am broadly interested in phonetics, phonology, sociolinguistics, language acquisition, and L1-L2 contrastive phonology. 
 image_left: false
 images:
 - img/profilenew.png
