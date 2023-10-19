@@ -4,7 +4,7 @@ action_link: /about
 action_type: text
 title: Jupitara Ray  
 subtitle: PhD candidate in Linguistics
-description: নমশ্কাৰ! [hello in Assamese]  <br>  I am a Ph.D. candidate in the Department of Linguistics at Boston University. My current research interest is in understanding how people talk similarly to each other.
+description: নমস্কাৰ! [hello in Assamese]  <br>  I am a Ph.D. candidate in the Department of Linguistics at Boston University. My current research interest is in understanding how people talk similarly to each other.
 
 image_left: false
 images:
