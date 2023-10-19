@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "RStudio"
   orgLocal = "Anywhere"
   description = "Jupitara Ray's Personal Website."
-  favicon = "/img/cat.ico"
-  logo = "/img/cat.png"
+  favicon = "/img/jrcopy2.ico"
+  logo = "/img/catmoji.png"
   mainSections = [""]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "grayscale"
+  theme = "plum"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/

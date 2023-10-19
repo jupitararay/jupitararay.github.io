@@ -1,8 +1,8 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Jupitara Ray "
+author: "Jupitara Ray"
 role: "(she/her/hers) <br>
-PhD Student in Linguistics"
+PhD candidate in Linguistics"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
 audio_link_label: "Here's how to say my name" # leave blank to exclude
