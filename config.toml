@@ -125,11 +125,11 @@ enableEmoji = true
 
 [menu]
   # Configure header 
-  #[[menu.header]]
-   # name = "About"
+  # [[menu.header]]
+  #  name = "About"
   #  title = "About Jupitara Ray"
-   # url = "/about/"
-    #weight = 1
+  #  url = "/collection/"
+  #  weight = 1
   #[[menu.header]] 
   #  name = "Blog"
   #  title = "Blog"
