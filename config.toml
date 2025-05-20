@@ -11,6 +11,7 @@ footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
 preserveTaxonomyNames = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+ignoreLogs = ['warning-frontmatter-params-overrides']
 enableEmoji = true
 
 [pagination]
@@ -47,7 +48,6 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "jupitararay"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -101,10 +101,6 @@ enableEmoji = true
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/jupitararay/"
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/jupitararay"
   #[[params.social]]
   #    icon      = "impactstory" # icon name without the 'fa-'
   #    icon_pack = "ai"
@@ -138,7 +134,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Projects"
     title = "Projects"
-    url = "/myprojects/"
+    url = "/projects/"
     weight = 2
   [[menu.header]]
     name = "CV"
@@ -189,10 +185,6 @@ enableEmoji = true
   [privacy.instagram]
     disable = false
     simple = true
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = false
   [privacy.vimeo]
     disable = false
     enableDNT = true
