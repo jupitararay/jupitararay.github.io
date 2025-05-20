@@ -173,6 +173,10 @@ enableEmoji = true
   #  title = "Contributors"
   #  url = "/contributors/"
   #  weight = 3
+  
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
