@@ -11,4 +11,4 @@ I am a PhD candidate at Boston University and my research areas are mostly in ph
 
 I have always found speech sounds very fascinating. I am interested understanding how speakers with different L1s converge in their L2 speech while conversing with others. 
 
-Outside of my research, I enjoy painting, spending time surrounded by nature, and anything Studio Ghibli. 
+Outside of my research, I enjoy painting, spending time surrounded by nature, and anything Studio Ghibli.

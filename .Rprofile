@@ -21,7 +21,3 @@ options(
 
 # fix Hugo version
 options(blogdown.hugo.version = "0.145.0")
-
-
-# site is built in the /docs/ directory,
-options(blogdown.publishDir='docs')
