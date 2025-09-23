@@ -1,21 +1,73 @@
 {{ define "main" }}
 {{ $page := . }}
+
 <main class="page-main pa4" role="main">
-  <section class="page-content mw9 center">
+  <section class="page-content mw8 center mb0 pb0">   <!-- tighter hero bottom -->
     <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
       <div class="mh4 w-50-l {{ if not .Params.text_align_left }}tr{{ end }}">
-        {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid">{{ . }}</h1>{{ end }}
+        {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mb4 lh-solid">{{ . }}</h1>{{ end }}
         {{ with .Params.subtitle }}<h2 class="f5 fw7 mt0 mb4 ttu tracked">{{ . }}</h2>{{ end }}
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
-        {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
-        {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
+        {{ with .Params.description }}
+        <div class="bt b--black-10 pt3 mt3">
+        <p class="f4 lh-copy mb0">{{ . | markdownify }}</p>
+         </div>
+         {{ end }}
+        {{ if .Params.show_action_link }}<a class="mt3 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
       </div>
       <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
-      {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
-      {{ end }}
+        {{ with .Params.images }}
+          {{ range first 1 . }}<img class="mv0 w-60-l" src="{{ . }}"/>{{ end }}
+        {{ end }}
       </div>
     </div>
   </section>
+
+  {{/* UPDATES (optional) */}}
+  {{ with .Params.updates }}
+  <section id="updates" class="page-content mw8 center pv1 pv2-l mt0">  <!-- no top margin -->
+    <div class="mh4 w-50-l {{ if not $.Params.text_align_left }}tr{{ end }}">
+      <h2 class="f2 lh-title mb3">{{ .heading | default "Updates" }}</h2>
+      <ul class="list pl0 ma0">
+        {{ range .items }}
+        <li class="pv3 bt b--black-10">
+          {{ with .date }}<div class="f6 silver mb1">{{ . }}</div>{{ end }}
+          <div class="f4 lh-copy">
+            {{ if .url }}<a class="link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+          </div>
+          {{ with .blurb }}<p class="mt2 mb0">{{ . }}</p>{{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* CONTACT (optional) */}}
+  {{ with .Params.contact }}
+  <section id="contact" class="page-content mw8 center pv2 pv3-l">
+    <div class="mh4 w-50-l {{ if not $.Params.text_align_left }}tr{{ end }}">
+      <h2 class="f2 lh-title mb3">{{ .heading | default "Contact" }}</h2>
+      {{ with .blurb }}<p class="f5 lh-copy mt0">{{ . | markdownify }}</p>{{ end }}
+      {{ if .mailto }}
+        <p class="mt3">
+          <a class="action text" href="{{ .mailto }}">{{ .email_label | default "Email me" }}</a>
+        </p>
+      {{ else if .email }}
+        <p class="mt3 f4 lh-copy">{{ .email }}</p>
+      {{ end }}
+      {{ with .location }}<p class="mt2 f6 silver">📍 {{ . }}</p>{{ end }}
+      {{ with .links }}
+        <ul class="list pl0 mt3">
+          {{ range . }}
+            <li class="pv1"><a class="link" href="{{ .url }}">{{ .label }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
 </main>
+
 {{ end }}

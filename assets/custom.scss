@@ -1,1 +1,26 @@
 // Override this file to add your own SCSS styling.
+
+/* Cancel uppercase in Contact section only */
+#contact h2,
+#contact h5,
+#contact p,
+#contact a {
+  text-transform: none !important;
+  letter-spacing: normal !important; /* cancels 'tracked' spacing if applied */
+}
+
+/* Tighter gap between hero and Updates */
+.page-main .page-content:first-of-type {   /* your hero section */
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+#updates {
+  margin-top: 0 !important;
+  padding-top: .5rem;  /* or 0 */
+}
+
+/* Optionally shrink hero internals a bit */
+.page-main .page-content:first-of-type h1 { margin: 0 0 .75rem !important; }
+.page-main .page-content:first-of-type h2 { margin-bottom: .5rem !important; }
+.page-main .page-content:first-of-type p  { margin-top: .5rem !important; }
+

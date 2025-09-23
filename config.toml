@@ -112,22 +112,10 @@ enableEmoji = true
       icon      = "bluesky" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://bsky.app/profile/jupitararay.bsky.social"
-  # [[params.social]]
-  #    icon      = "instagram" # icon name without the 'fa-'
-  #    icon_pack = "fab"
-  #    url       = "https://www.instagram.com/explore/tags/apero/"
-  # [[params.social]]
-  #    icon      = "x-twitter" # icon name without the 'fa-'
-  #    icon_pack = "fab"
-  #    url       = "https://twitter.com/hashtag/apéro"
-  # [[params.social]]
-  #    icon      = "impactstory" # icon name without the 'fa-'
-  #    icon_pack = "ai"
-  #    url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  # [[params.social]]
-  #    icon      = "orcid" # icon name without the 'fa-'
-  #    icon_pack = "ai"
-  #    url       = "http://orcid.org/0000-0002-8082-1890"
+   [[params.social]]
+      icon      = "orcid" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "http://orcid.org/0009-0008-4592-7922"
   # [[params.social]]
   #    icon      = "rss" # icon name without the 'fa-'
   #    icon_pack = "fas"
