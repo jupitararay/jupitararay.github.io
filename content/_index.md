@@ -25,7 +25,7 @@ updates:
       blurb: "Greater L2 phonetic accommodation does not predict greater L1 phonetic drift in early bilinguals"
     - date: "9 November 2025"
       title: "Poster at BUCLD 50"
-      url: ""
+      url: "https://jupitararay.github.io/img/BUCLD50poster.pdf"
       blurb: "L2 influence, L1 resilience: Change and stability in early bilingual speakers of Indian English" 
     - date: "7 October 2025"
       title: "Speaker Series @ Northeastern University"
@@ -33,7 +33,7 @@ updates:
       blurb: "Talk on L2 Change & L1 Stability in Early Sequential Bilinguals of Indian English"
     - date: "9 June 2025"
       title: "Poster at 15th International Symposium on Bilingualism"
-      url: ""
+      url: "https://jupitararay.github.io/img/isb15poster.pdf"
       blurb: "Phonetic accommodation in Hindi–English and Telugu–English early sequential bilinguals: The roles of category establishment and phonetic dissimilarity"
 
 contact:
