@@ -4,7 +4,7 @@ action_link: /about
 action_type: text
 title: Jupitara Ray
 subtitle: PhD candidate in Linguistics | she/her/hers  
-description: নমস্কাৰ! [hello in Assamese]  <br> 
+description: নমস্কাৰ /nɔmɔskɑɹ/ (Assamese greeting)  <br>
   I am a PhD candidate in Linguistics at Boston University. My research deals with bilingual speech, particularly in understanding how sequential 
   bilinguals phonetically accommodate in their L2 and the subsequent effects in the production and perception of their L1. 
   I am working under [Dr Charles Chang](https://cbchang.com/) as my first reader, with 

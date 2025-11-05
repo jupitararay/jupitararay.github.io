@@ -151,6 +151,81 @@
        url('#{$font-path}/Atkinson-Hyperlegible-BoldItalic-102.woff2') format('woff');
 }
 
+/* Inter regular */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter Regular'),
+       url('#{$font-path}/Inter-Regular.woff2') format('woff2'),
+       url('#{$font-path}/Inter-Regular.woff') format('woff');
+}
+
+/* Inter bold */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Inter Bold'),
+       url('#{$font-path}/Inter-Bold.woff2') format('woff2');
+}
+
+/* Inter italic */
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter Italic'),
+       url('#{$font-path}/Inter-Italic.woff2') format('woff2');
+}
+
+/* Fira Sans regular */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Regular'),
+       url('#{$font-path}/FiraSans-Regular.woff2') format('woff2');
+}
+
+/* Fira Sans bold */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Fira Sans Bold'),
+       url('#{$font-path}/FiraSans-Bold.woff2') format('woff2');
+}
+
+/* Fira Sans italic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Italic'),
+       url('#{$font-path}/FiraSans-Italic.woff2') format('woff2');
+}
+
+$customtextFontFamily: 'Gentium Plus', sans-serif;
+$customheadingFontFamily: 'Fraunces', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
+
+body {
+  font-family: "Fira Sans", sans-serif;            /* keep body text in Fira Sans */
+}
+
+h1, h2, h3 {
+  font-family: "Gentium Plus", serif;              /* headings use Gentium Plus */
+}
+
+
 
 // create custom font classes 
 .custom-text-font { font-family: $customtextFontFamily; }

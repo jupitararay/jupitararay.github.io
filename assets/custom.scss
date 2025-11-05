@@ -24,3 +24,13 @@
 .page-main .page-content:first-of-type h2 { margin-bottom: .5rem !important; }
 .page-main .page-content:first-of-type p  { margin-top: .5rem !important; }
 
+
+/* Make all body text larger */
+body {
+  font-size: 1.2rem; /* default ~1rem */
+}
+
+/* Make headings larger */
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
