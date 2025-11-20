@@ -15,13 +15,13 @@ description: নমস্কাৰ /nɔmɔskɑɹ/ (Assamese greeting)  <br>
 updates:
   heading: "Updates"
   items:
-    - date: "January 2026"
+    - date: "9 January 2026"
       title: "Talk at Meeting of the LSA 2026"
       url: ""
       blurb: "L2 accommodation-led drift: Asymmetries between L1 production and perception"
     - date: "3 December 2025"
       title: "Poster at 189th Meeting of the ASA"
-      url: ""
+      url: "https://jupitararay.github.io/img/189ASAposter.pdf"
       blurb: "Greater L2 phonetic accommodation does not predict greater L1 phonetic drift in early bilinguals"
     - date: "9 November 2025"
       title: "Poster at BUCLD 50"
