@@ -6,17 +6,18 @@
 #contact p,
 #contact a {
   text-transform: none !important;
-  letter-spacing: normal !important; /* cancels 'tracked' spacing if applied */
+  letter-spacing: normal !important;
 }
 
 /* Tighter gap between hero and Updates */
-.page-main .page-content:first-of-type {   /* your hero section */
+.page-main .page-content:first-of-type {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+
 #updates {
   margin-top: 0 !important;
-  padding-top: .5rem;  /* or 0 */
+  padding-top: .5rem;
 }
 
 /* Optionally shrink hero internals a bit */
@@ -24,10 +25,21 @@
 .page-main .page-content:first-of-type h2 { margin-bottom: .5rem !important; }
 .page-main .page-content:first-of-type p  { margin-top: .5rem !important; }
 
+.flex-l.items-center {
+  gap: 4rem;
+}
+
+img.w-60-l {
+  width: 80% !important;
+}
+
+.tr.w-50-l.mr4 {
+  margin-right: 2.5rem !important;
+}
 
 /* Make all body text larger */
 body {
-  font-size: 1.2rem; /* default ~1rem */
+  font-size: 1.2rem;
 }
 
 /* Make headings larger */
