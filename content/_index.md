@@ -20,8 +20,13 @@ description: >
  
 
 updates:
-  heading: "Updates"
+  heading: "Updates/News"
   items:
+    - date: "6 November 2026"
+      title: "Poster at Joint Language Research Symposium @ Penn State"
+      url: "https://jupitararay.github.io/img/CLSCLAposter.pdf"
+      blurb: "Greater phonetic accommodation does not predict greater L1 drift"
+  
     - date: "9 October 2026"
       title: "Speaker Series @ CLS, Penn State University"
       url: "https://events.la.psu.edu/event/cls-speaker-series-ray/"
@@ -29,12 +34,12 @@ updates:
       
     - date: "24 September 2026"
       title: "New job/position"
-      url: ""
+      url: "https://cls.la.psu.edu/people/jupitara-ray/"
       blurb: "Lab manager at Centre for Language Science, The Pennsylvania State University"
   
     - date: "28 June 2026"
       title: "Poster at LabPhon 20"
-      url: "https://jupitararay.github.io/static/img/LabPhon_RayChang.pdf"
+      url: "https://jupitararay.github.io/img/LabPhon_RayChang.pdf"
       blurb: "Perception and production change out of sync: A study of Indian English bilinguals"
   
     - date: "12 May 2026"
