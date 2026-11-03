@@ -24,7 +24,7 @@ updates:
   items:
     - date: "9 October 2026"
       title: "Speaker Series @ CLS, Penn State University"
-      url: ""
+      url: "https://events.la.psu.edu/event/cls-speaker-series-ray/"
       blurb: "L2 production changes can lead to L1 production and perception changes"
       
     - date: "24 September 2026"
@@ -34,12 +34,12 @@ updates:
   
     - date: "28 June 2026"
       title: "Poster at LabPhon 20"
-      url: ""
+      url: "https://jupitararay.github.io/static/img/LabPhon_RayChang.pdf"
       blurb: "Perception and production change out of sync: A study of Indian English bilinguals"
   
     - date: "12 May 2026"
       title: "Dissertation defense!"
-      url: ""
+      url: "https://www.bu.edu/linguistics/2024/11/26/jupitara-ray-defends-her-dissertation-prospectus/"
       blurb: "Phonetic plasticity in Indian English bilinguals: How L2 production alters L1 perception"
      
     - date: "9 January 2026"
@@ -57,7 +57,7 @@ contact:
 
 image_left: false
 images:
-  - "img/IMG3.png"
+  - "img/photo.JPG"
 
 show_action_link: false
 show_social_links: true
