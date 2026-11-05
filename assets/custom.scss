@@ -1,5 +1,24 @@
 // Override this file to add your own SCSS styling.
 
+/* --- Custom Font 1: Fira Sans (Body) --- */
+@font-face {
+  font-family: 'FiraSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/FiraSans-Light.ttf') format('truetype'); 
+}
+
+/* Apply FiraSans to body text */
+body, p, li {
+  font-size: 1.2rem;
+  font-family: 'FiraSans', sans-serif !important;
+}
+
+/* Headings use theme defaults */
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
 /* Cancel uppercase in Contact section only */
 #contact h2,
 #contact h5,
@@ -20,7 +39,6 @@
   padding-top: .5rem;
 }
 
-/* Optionally shrink hero internals a bit */
 .page-main .page-content:first-of-type h1 { margin: 0 0 .75rem !important; }
 .page-main .page-content:first-of-type h2 { margin-bottom: .5rem !important; }
 .page-main .page-content:first-of-type p  { margin-top: .5rem !important; }
@@ -36,13 +54,3 @@ img.w-60-l {
 .tr.w-50-l.mr4 {
   margin-right: 2.5rem !important;
 }
-
-/* Make all body text larger */
-body {
-  font-size: 1.2rem;
-}
-
-/* Make headings larger */
-h1 { font-size: 3rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }

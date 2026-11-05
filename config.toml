@@ -64,8 +64,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Fraunces"
-  customheadingFontFamily = "EB Garamond"
+  customtextFontFamily = "Bitter"
+  customheadingFontFamily = "Fraunces"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -130,21 +130,25 @@ enableEmoji = true
 
 [menu]
   # Configure header 
-  # [[menu.header]]
-  #  name = "About"
-  #  title = "About Blogophonic"
-  #  url = "/about/"
-  #  weight = 1
+    
   [[menu.header]]
-    name = "Projects"
-    title = "Projects"
-    url = "/projects/"
+    name = "Research"
+    title = "Research"
+    url = "/research/"
+    weight = 1
+    
+  [[menu.header]]
+    name = "Teaching"
+    title = "Teaching"
+    url = "/teaching/"
     weight = 2
+  
   [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/cv/jupitararaycv.pdf"
     weight = 3
+  
   # [[menu.header]]
   #  name = "A collection"
   #  title = "A collection"

@@ -3,22 +3,25 @@ action_label: "Read More →"
 action_link: "/about"
 action_type: "text"
 
+
 title: "Jupitara Ray"
-subtitle: "PhD, Linguistics | she/her/hers"
+#subtitle: "PhD, Linguistics | she/her/hers"
 
 description: >
-  নমস্কাৰ /nɔmɔskɑɹ/ (Assamese greeting)  <br>
-  I am a phonetician interested in the production-perception link in bilingual speakers. 
-  I received my PhD in Linguistics from Boston University in August 2026, where I worked under [Dr Charles Chang](https://cbchang.com/). 
-  My dissertation looked at how sequential bilinguals phonetically accommodate in their L2 and the subsequent effects in the production 
-  and perception of their L1. <br> 
+  নমস্কাৰ /nomoskɑɹ/ (Assamese greeting)<br>
   <br>
+  I am a linguist specialising in phonetic analysis and the production-perception link in bilingual speakers. 
+  I received my PhD in Linguistics from Boston University in August 2026, where I worked under [Dr Charles Chang](https://cbchang.com/). 
+  My dissertation looked at how sequential bilinguals phonetically accommodate in their L2 and the effects in the production 
+  and perception of their L1 post-L2 changes. <br> 
+  <br>
+  
   I am currently a Lab Manager at the [Centre for Language Science](https://cls.la.psu.edu/) at Penn State University, 
-  where I focus on studies related to all things bilingualism. I am also continuing my NSF-funded research on phonetic 
-  accommodation and drift in Indian English speakers at the CLS. <br> 
+  where I focus on studies related to all things bilingualism. <br> 
+  <br>
+#  You can access my dissertation [here](https://ezproxy.bu.edu/login?qurl=https%3A%2F%2Fwww.proquest.com%2Fdissertations-theses%2Fphonetic-plasticity-indian-english-bilinguals-how%2Fdocview%2F3395738879%2Fse-2%3Faccountid%3D9676).
  
  
-
 updates:
   heading: "Updates/News"
   items:
@@ -30,7 +33,7 @@ updates:
     - date: "9 October 2026"
       title: "Speaker Series @ CLS, Penn State University"
       url: "https://events.la.psu.edu/event/cls-speaker-series-ray/"
-      blurb: "L2 production changes can lead to L1 production and perception changes"
+      blurb: "L2 Accommodation-led L1 Drift: Asymmetries between L1 Production and Perceptions"
       
     - date: "24 September 2026"
       title: "New job/position"
@@ -46,11 +49,6 @@ updates:
       title: "Dissertation defense!"
       url: "https://www.bu.edu/linguistics/2024/11/26/jupitara-ray-defends-her-dissertation-prospectus/"
       blurb: "Phonetic plasticity in Indian English bilinguals: How L2 production alters L1 perception"
-     
-    - date: "9 January 2026"
-      title: "Talk at Meeting of the LSA 2026"
-      url: ""
-      blurb: "L2 accommodation-led drift: Asymmetries between L1 production and perception"
 
 
 contact:
@@ -62,7 +60,7 @@ contact:
 
 image_left: false
 images:
-  - "img/photo.JPG"
+  - "img/profile.jpg"
 
 show_action_link: false
 show_social_links: true
