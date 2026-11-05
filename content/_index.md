@@ -13,13 +13,13 @@ description: >
   I am a linguist specialising in phonetic analysis and the production-perception link in bilingual speakers. 
   I received my PhD in Linguistics from Boston University in August 2026, where I worked under [Dr Charles Chang](https://cbchang.com/). 
   My dissertation looked at how sequential bilinguals phonetically accommodate in their L2 and the effects in the production 
-  and perception of their L1 post-L2 changes. <br> 
+  and perception of their L1 post-L2 changes. You can access my dissertation [here](https://ezproxy.bu.edu/login?qurl=https%3A%2F%2Fwww.proquest.com%2Fdissertations-theses%2Fphonetic-plasticity-indian-english-bilinguals-how%2Fdocview%2F3395738879%2Fse-2%3Faccountid%3D9676).<br> 
   <br>
   
   I am currently a Lab Manager at the [Centre for Language Science](https://cls.la.psu.edu/) at Penn State University, 
   where I focus on studies related to all things bilingualism. <br> 
   <br>
-#  You can access my dissertation [here](https://ezproxy.bu.edu/login?qurl=https%3A%2F%2Fwww.proquest.com%2Fdissertations-theses%2Fphonetic-plasticity-indian-english-bilinguals-how%2Fdocview%2F3395738879%2Fse-2%3Faccountid%3D9676).
+  
  
  
 updates:
